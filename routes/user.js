@@ -30,10 +30,10 @@ router.get('/users', (req, res) => {
 // MySQL pool
 const pool = mysql.createPool({
     connectionLimit: 10,
-    host: 'localhost',
-    user: 'root',
-    password: 'tom',
-    database: 'mysql_table'
+    host: 'us-cdbr-iron-east-05.cleardb.net',
+    user: 'ba7fa34f1f1bac',
+    password: 'b80783f4',
+    database: 'heroku_c03734cbfe79f39'
 })
 
 // MySQL generic function
