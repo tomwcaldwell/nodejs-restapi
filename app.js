@@ -21,8 +21,8 @@ app.use(router);
 
 
 
-
+const PORT = process.env.PORT || 3003;
 // localhost:3003
-app.listen(3003, () => {
-	console.log('Server is up and running on port 3003');
+app.listen(PORT, () => {
+	console.log('Server is up and running on port ' + PORT);
 });
